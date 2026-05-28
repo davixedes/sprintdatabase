@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(mongoexport --version)",
-      "Bash(gh auth *)"
-    ]
-  }
-}
