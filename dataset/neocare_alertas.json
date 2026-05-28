@@ -1,0 +1,43 @@
+[{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000301"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"medicao_id": {
+		"$oid": "6651a1b2c3d4e5f600000202"
+	},
+	"tipo_alerta": "BATIMENTOS_ELEVADOS",
+	"severidade": "CRITICO",
+	"valor_detectado": "145 bpm",
+	"limite_referencia": ">120 bpm em repouso",
+	"mensagem": "Frequência cardíaca acima do limite seguro detectada. Recomenda-se avaliação médica imediata.",
+	"data_notificacao": {
+		"$date": "2026-05-24T12:30:05Z"
+	},
+	"lido": true,
+	"acao_tomada": "Paciente contatado, sinais estabilizados."
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000302"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000002"
+	},
+	"medicao_id": {
+		"$oid": "6651a1b2c3d4e5f600000204"
+	},
+	"tipo_alerta": "ESTRESSE_ELEVADO",
+	"severidade": "MODERADO",
+	"valor_detectado": "Condutividade 12.3 µS",
+	"limite_referencia": ">10 µS sustentado",
+	"mensagem": "Nível de estresse acima do baseline pessoal. Sugere-se pausa de 15 minutos com técnicas de respiração.",
+	"data_notificacao": {
+		"$date": "2026-05-24T16:45:08Z"
+	},
+	"lido": true,
+	"acao_tomada": "Notificação enviada via app e contato de emergência alertado."
+}]
+

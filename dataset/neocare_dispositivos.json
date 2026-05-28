@@ -1,0 +1,41 @@
+[{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000102"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"tipo_dispositivo": "SENSOR_CARDIACO",
+	"endereco_disp": "00:1A:7D:DA:71:13",
+	"fabricante": "Polar",
+	"modelo": "H10",
+	"firmware": "v3.3.0",
+	"data_ativacao": {
+		"$date": "2026-02-01T09:30:00Z"
+	},
+	"ultima_sincronizacao": {
+		"$date": "2026-05-28T01:02:28.325Z"
+	},
+	"ativo": true
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000103"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000002"
+	},
+	"tipo_dispositivo": "ESP32",
+	"endereco_disp": "A4:CF:12:45:AE:CC",
+	"fabricante": "Espressif",
+	"modelo": "ESP32-WROOM-32",
+	"firmware": "v2.4.1",
+	"data_ativacao": {
+		"$date": "2026-01-20T15:00:00Z"
+	},
+	"ultima_sincronizacao": {
+		"$date": "2026-05-24T16:45:00Z"
+	},
+	"ativo": true
+}]
+

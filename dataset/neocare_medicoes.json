@@ -1,0 +1,142 @@
+[{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000201"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"dispositivo_id": {
+		"$oid": "6651a1b2c3d4e5f600000102"
+	},
+	"tipo_medicao": "VITAL",
+	"data_medicao": {
+		"$date": "2026-05-24T07:15:00Z"
+	},
+	"vitais": {
+		"batimentos_por_minuto": 72,
+		"oxigenacao_sangue": 98.5,
+		"pressao_sistolica": 120,
+		"pressao_diastolica": 80
+	},
+	"usuario_snapshot": {
+		"nome": "João Silva",
+		"idade": 40
+	},
+	"metadata": {
+		"origem": "auto_sync",
+		"qualidade_sinal": 0.95
+	}
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000202"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"dispositivo_id": {
+		"$oid": "6651a1b2c3d4e5f600000102"
+	},
+	"tipo_medicao": "VITAL",
+	"data_medicao": {
+		"$date": "2026-05-24T12:30:00Z"
+	},
+	"vitais": {
+		"batimentos_por_minuto": 145,
+		"oxigenacao_sangue": 96.2,
+		"pressao_sistolica": 160,
+		"pressao_diastolica": 100
+	},
+	"usuario_snapshot": {
+		"nome": "João Silva",
+		"idade": 40
+	},
+	"metadata": {
+		"origem": "auto_sync",
+		"qualidade_sinal": 0.92
+	}
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000203"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000002"
+	},
+	"dispositivo_id": {
+		"$oid": "6651a1b2c3d4e5f600000103"
+	},
+	"tipo_medicao": "ESTRESSE",
+	"data_medicao": {
+		"$date": "2026-05-24T14:00:00Z"
+	},
+	"estresse": {
+		"variacao_frequencia_cardiaca": 35.2,
+		"condutividade_pele": 4.8
+	},
+	"usuario_snapshot": {
+		"nome": "Maria Souza",
+		"idade": 33
+	},
+	"metadata": {
+		"origem": "manual_input",
+		"qualidade_sinal": 0.88
+	}
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000204"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000002"
+	},
+	"dispositivo_id": {
+		"$oid": "6651a1b2c3d4e5f600000103"
+	},
+	"tipo_medicao": "ESTRESSE",
+	"data_medicao": {
+		"$date": "2026-05-24T16:45:00Z"
+	},
+	"estresse": {
+		"variacao_frequencia_cardiaca": 78.9,
+		"condutividade_pele": 12.3
+	},
+	"usuario_snapshot": {
+		"nome": "Maria Souza",
+		"idade": 33
+	},
+	"metadata": {
+		"origem": "auto_sync",
+		"qualidade_sinal": 0.97
+	}
+},
+{
+	"_id": {
+		"$oid": "6a1793ea2b9d039aca22315e"
+	},
+	"usuario_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"dispositivo_id": {
+		"$oid": "6651a1b2c3d4e5f600000102"
+	},
+	"tipo_medicao": "VITAL",
+	"data_medicao": {
+		"$date": "2026-05-28T01:01:30.467Z"
+	},
+	"vitais": {
+		"batimentos_por_minuto": 75,
+		"oxigenacao_sangue": 98,
+		"pressao_sistolica": 118,
+		"pressao_diastolica": 78
+	},
+	"usuario_snapshot": {
+		"nome": "João Silva",
+		"idade": 40
+	},
+	"metadata": {
+		"origem": "auto_sync",
+		"qualidade_sinal": 0.93
+	}
+}]
+

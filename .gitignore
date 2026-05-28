@@ -1,0 +1,13 @@
+# Mongo data volume (mapeado pelo docker, não deve versionar)
+mongo_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Logs locais
+*.log

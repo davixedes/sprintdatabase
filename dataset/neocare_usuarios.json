@@ -1,0 +1,81 @@
+[{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000001"
+	},
+	"nome": "João",
+	"sobrenome": "Silva",
+	"cpf": "52857264844",
+	"email": "joaosilva@gmail.com",
+	"telefone": "(11) 98765-4321",
+	"data_nascimento": {
+		"$date": "1985-07-15T00:00:00Z"
+	},
+	"sexo": "MASCULINO",
+	"altura": 175,
+	"peso": 80.5,
+	"endereco": {
+		"logradouro": "Rua das Flores",
+		"bairro": "Jardim Primavera",
+		"cep": "01234-567",
+		"numero": "123",
+		"complemento": "Apto 45",
+		"cidade": "São Paulo",
+		"uf": "SP"
+	},
+	"credenciais": {
+		"username": "joaosilva",
+		"password_hash": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy",
+		"roles": [
+			"ROLE_USER",
+			"ROLE_MEDICO"
+		],
+		"created_at": {
+			"$date": "2026-01-15T10:30:00Z"
+		},
+		"updated_at": {
+			"$date": "2026-05-28T01:02:28.328Z"
+		}
+	},
+	"ativo": true
+},
+{
+	"_id": {
+		"$oid": "6651a1b2c3d4e5f600000002"
+	},
+	"nome": "Maria",
+	"sobrenome": "Souza",
+	"cpf": "11223344556",
+	"email": "maria.souza@neocare.com",
+	"telefone": "(11) 91234-5678",
+	"data_nascimento": {
+		"$date": "1992-03-22T00:00:00Z"
+	},
+	"sexo": "FEMININO",
+	"altura": 165,
+	"peso": 62,
+	"endereco": {
+		"logradouro": "Av. Paulista",
+		"bairro": "Bela Vista",
+		"cep": "01310-100",
+		"numero": "1000",
+		"complemento": "Sala 502",
+		"cidade": "São Paulo",
+		"uf": "SP"
+	},
+	"credenciais": {
+		"username": "mariasouza",
+		"password_hash": "$2a$10$8KZ2nNqOPpyM7vXEZqHWoOTeJzKQYcfk6h7nUz8VgL3w5RcD0xZpa",
+		"roles": [
+			"ROLE_ADMIN",
+			"ROLE_USER"
+		],
+		"created_at": {
+			"$date": "2026-01-20T14:45:00Z"
+		},
+		"updated_at": {
+			"$date": "2026-03-10T09:15:00Z"
+		}
+	},
+	"ativo": true
+}]
+
